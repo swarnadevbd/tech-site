@@ -1,0 +1,80 @@
+.slider {
+    margin-top: 50px;
+}
+
+.carousel-caption {
+    padding-bottom: 120px !important;
+
+}
+
+.carousel-caption h1 {
+    font-size: 65px;
+}
+
+.img-3 {
+    width: 1116px;
+    height: 592px;
+}
+
+.btn.edu-btn {
+    background-color: #0D6EFD;
+}
+
+
+.courses-btn:hover {
+    border: 1px solid #0D6EFD;
+}
+
+.btn.courses-btn {
+    color: white;
+    background-color: #0D6EFD;
+
+}
+
+/*registration*/
+.registration-box {
+    background-color: #0D6EFD;
+}
+
+.registration-box .btn {
+    background-color: #fff;
+    color: #0D6EFD;
+}
+
+.registration-box .btn:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+footer a {
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffe5e5;
+
+}
+
+
+.social-media i {
+    font-size: 30px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+    .img-3 {
+        width: 100%;
+        height: 220px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 0px !important;
+
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+}

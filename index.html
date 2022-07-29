@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructory</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/a29573b667.js" crossorigin="anonymous"></script>
+</head>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="#">Instructory</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--navbar end-->
+
+<!--carosuel-->
+<div class="container slider">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>ONLINE TEACHING MARKETPLACE</h1>
+                    <p class="">
+                        Upload your course tutorial & become an online teacher. Earn as much as you can, it's FREE!
+                    </p>
+                    <button class="btn text-white edu-btn fw-semibold">
+                        Start Learning
+                    </button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100 img-3" alt="...">
+                <div class="carousel-caption">
+                    <h1>TEACH ANYTHING, LEARN ANYTIME</h1>
+                    <p class="">
+                        Upload your course tutorial & become an online teacher. Earn as much as you can, it's FREE!
+                    </p>
+                    <button class="btn text-white edu-btn fw-semibold">
+                        Start Teaching
+                    </button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>Join Instructory Community</h1>
+                    <p class="">
+                        Instructory is for everyone and different from everyone.
+                    </p>
+                    <button class="btn text-white edu-btn fw-semibold">
+                        Join Now
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
+<!--carosuel end-->
+
+
+<!--courses-->
+<section class="courses">
+    <div class="row justify-content-center py-5">
+        <div class="col-6 text-center">
+            <h1>NEWLY LAUNCHED COURSES</h1>
+            <p class="course-subtitle">
+                Here you see all of our newly launched courses at a glance!
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="col">
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-7.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Learn Email Marketing
+                                        Mailerlite</h5>
+                                    <p class="card-text text-muted">
+                                        Become an email marketer by doing this Course.
+                                    </p>
+                                    <h5 class="price">Price : 575tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-8.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text text-muted">
+                                        Become a digital marketer by doing this Course.
+                                    </p>
+                                    <h5 class="price">Price : 800tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-9.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mental Wellbeing for all</h5>
+                                    <p class="card-text text-muted">
+                                        An overview of the course with an amazing introduction.
+                                    </p>
+                                    <h5 class="price">Price : 700tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-10.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Email Signature Development</h5>
+                                    <p class="card-text text-muted">
+                                        In this video, you will know about the course and the instructor
+                                    </p>
+                                    <h5 class="price">Price : 575tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-11.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Freelancing Marketplace Guideline</h5>
+                                    <p class="card-text text-muted">
+                                        Intro of the course.
+                                    </p>
+                                    <h5 class="price">Price : 400tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course -->
+                <div class="course-box">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-12.jpeg" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Upwork Masterclass</h5>
+                                    <p class="card-text text-muted">
+                                        Welcome to the course What we will learn
+                                    </p>
+                                    <h5 class="price">Price : 700tk</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Button -->
+        <div class="row row-cols-2 d-flex justify-content-center">
+            <div class="col">
+                <div class="d-flex justify-content-center py-4">
+                    <button class="btn courses-btn px-3 py-2 d-none d-md-none d-lg-block fw-semibold">
+                        See More
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--registration-->
+<div class="container">
+    <div class="row registration-box justify-content-center align-items-center my-5 p-5 rounded-3">
+        <div class="col-12 col-md-12 col-lg-6 text-white text-center text-md-center text-lg-start">
+            <h1>Join Instructory Community</h1>
+            <p>
+                You can teach or you can learn, in both way you can empower youself with lot of skills and support.
+
+                Instructory Community is the largest and one of the best eLearning group of Instructory, where you can
+                get so many tips, tricks and news about newly arrival courses.
+            </p>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex justify-content-center justify-content-lg-end">
+                <button class="btn d-none d-md-none d-lg-block fw-bold px-3 py-2" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Join Now
+                </button>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center" id="exampleModalLabel">Register Now</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Registration modal -->
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Submit Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary submit-form">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary close"
+                                    data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary save-changes">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---accordion-->
+<section class="courses">
+    <div class="row justify-content-center py-5">
+        <div class="col-6 text-center">
+            <h1>INSTRUCTOR'S COURSE FEED</h1>
+            <p class="course-subtitle">
+                Our Top Instructors - Best Sellers
+            </p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center pb-5">
+        <div class="col-12 col-md-12 col-lg-8">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Rifat M Huq
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Instructor, Top Rated Freelancer & UI/UX Designer <br>
+                            Enrolled 11003 Student(s) <br>
+                            Instructor Level 4 <br>
+                            4 course(s)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Joyeta Banerjee
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Digital Marketer, Instructor at Robi 10 Minutes School, Instructory, <br>
+                            Enrolled 6315 Student(s) <br>
+                            Instructor Level 4 <br>
+                            5 course(s)
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Tisat Fatema Tia
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Instructor | Freelancer | UI/UX Designer | Email Marketer (Specialist in Mailchimp) <br>
+                            Enrolled 9925 Student(s) <br>
+                            Instructor Level 4 <br>
+                            6 course(s)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--partner companies-->
+<section class="container pt-5 d-md-none d-lg-block">
+    <div class="row d-flex justify-content-center">
+        <div class="col text-center">
+            <div class="px-0 px-md-5 px-lg-0">
+                <h1>Trusted by over 800+ companies</h1>
+            </div>
+        </div>
+    </div>
+    <!-- partners info -->
+    <div class="row py-4">
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-1.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-2.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-3.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-4.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-5.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div class="partner-logo">
+                <img class="img-fluid partner-img" src="images/company/company-6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+<footer class="bg-dark">
+    <div class="container text-center py-4 text-white">
+        <div class="row py-5">
+            <div class="col">
+                <h1 class="pb-3">Instructory</h1>
+                <div>
+                    House 06, Road 17/A, Block E, Banani, Dhaka 1213, Bangladesh <br>
+                    Privacy Ploicy | Terms of use
+                </div>
+                <div class="social-media d-flex justify-content-center pt-3">
+                    <a href="https://www.facebook.com/swarnadevbd" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/swarnadevbd" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/swarnadevbd" target="_blank"><i
+                            class="fa-brands fa-instagram-square"></i></a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+<body>
+
+</body>
+
+</html>
